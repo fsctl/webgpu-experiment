@@ -1,12 +1,12 @@
-# webgpu compute shader experiment
+# WebGPU compute shader experiment
 
-This is a demonstration WebGPU compute shader.  It computes the value of pi using a Monte Carlo approach.  It's an unremarkable program that was written just to experiment with WebGPU.
+This is a demonstration WebGPU compute shader that computes the value of pi using a Monte Carlo approach.  It's an unremarkable program that was written just to experiment with WebGPU.
 
-## How to run
+## How to Run
 
 Regular browsers don't support WebGPU at the time of this writing, so first install [Chrome Canary](https://www.google.com/chrome/canary/).
 
-Enable "Unsafe WebGPU" in [chrome://flags/#enable-unsafe-webgpu](chrome://flags/#enable-unsafe-webgpu).  Verify WebGPU is working using an examples site like [this one](https://austin-eng.com/webgpu-samples/samples/animometer).
+Enable "Unsafe WebGPU" in **[chrome://flags/#enable-unsafe-webgpu](chrome://flags/#enable-unsafe-webgpu)**.  Verify WebGPU is working using an examples site like [this one](https://austin-eng.com/webgpu-samples/samples/animometer).
 
 Clone this repo and open index.html.  You should get some approximation of pi ~= 3.14.
 
